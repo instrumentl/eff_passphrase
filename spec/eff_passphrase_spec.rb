@@ -15,11 +15,11 @@ RSpec.describe EffPassphrase do
 
     context "when using a wordlist with one item" do
       before do
-        expect(EffPassphrase::Lists).to receive(:get).and_return(["banana"])
+        allow(EffPassphrase::Lists).to receive(:get).and_return(["banana"])
       end
 
       it "honors separator and num words" do
-        expect(described_class.generate(num_words: 3, separator: "🍌")).to eq "banana🍌banana🍌banana"
+        expect(described_class.generate(num_words: 3, separator: "🍌").to_s).to eq "banana🍌banana🍌banana"
       end
     end
   end
