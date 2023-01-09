@@ -70,7 +70,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  bundle-audit (~> 0.1.0)
+  bundle-audit
   eff_passphrase!
   pry (~> 0.14.1)
   rspec
