@@ -1,6 +1,6 @@
 This repository contains a very simple Ruby library for using the EFF's [Diceware wordlists](https://www.eff.org/dice) to generate secure passphrases.
 
-"EFF&reg;" is a registered trademark of the Electronic Frontier Foundation. This repository and project are in no way affiliated by, endorsed by, or associated with the Electronic Frontier Foundationier Foundation.
+"EFF&reg;" is a registered trademark of the [Electronic Frontier Foundation](https://www.eff.org/). This repository and project are in no way affiliated by, endorsed by, or associated with the Electronic Frontier Foundation Foundation.
 
 ## Usage
 
