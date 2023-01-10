@@ -2,6 +2,9 @@ This repository contains a very simple Ruby library for using the EFF's [Dicewar
 
 "EFF&reg;" is a registered trademark of the [Electronic Frontier Foundation](https://www.eff.org/). This repository and project are in no way affiliated by, endorsed by, or associated with the Electronic Frontier Foundation Foundation.
 
+[![CI](https://github.com/instrumentl/eff_passphrase/actions/workflows/ci.yml/badge.svg)](https://github.com/instrumentl/eff_passphrase/actions/workflows/ci.yml)
+[![Gem Version](https://badge.fury.io/rb/eff_passphrase.svg)](https://badge.fury.io/rb/eff_passphrase)
+
 ## Usage
 
 ## Installation
