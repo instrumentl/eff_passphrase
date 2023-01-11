@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    eff_passphrase (0.1.0)
+    eff_passphrase (0.1.1)
 
 GEM
   remote: https://rubygems.org/
