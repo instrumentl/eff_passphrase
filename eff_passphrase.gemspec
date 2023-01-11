@@ -21,6 +21,6 @@ Gem::Specification.new do |spec|
   spec.metadata["source_code_uri"] = "https://github.com/instrumentl/eff_passphrase"
   spec.metadata["changelog_uri"] = "https://github.com/instrumentl/eff_passphrase/blob/main/CHANGELOG.md"
 
-  spec.files = Dir["{data,lib}/**/*", "LICENSE.txt", "README.md", "CHANGELOG.md"]
+  spec.files = Dir["{wordlists,lib}/**/*", "LICENSE.txt", "README.md", "CHANGELOG.md"]
   spec.require_paths = ["lib"]
 end
