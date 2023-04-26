@@ -16,9 +16,10 @@ GEM
     diff-lcs (1.5.0)
     json (2.6.3)
     language_server-protocol (3.17.0.3)
+    lint_roller (1.0.0)
     method_source (1.0.0)
     parallel (1.23.0)
-    parser (3.2.2.0)
+    parser (3.2.2.1)
       ast (~> 2.4.1)
     pry (0.14.2)
       coderay (~> 1.1)
@@ -58,9 +59,16 @@ GEM
       rubocop (>= 1.7.0, < 2.0)
       rubocop-ast (>= 0.4.0)
     ruby-progressbar (1.13.0)
-    standard (1.27.0)
+    standard (1.28.0)
       language_server-protocol (~> 3.17.0.2)
+      lint_roller (~> 1.0)
       rubocop (~> 1.50.2)
+      standard-custom (~> 1.0.0)
+      standard-performance (~> 1.0.1)
+    standard-custom (1.0.0)
+      lint_roller (~> 1.0)
+    standard-performance (1.0.1)
+      lint_roller (~> 1.0)
       rubocop-performance (~> 1.16.0)
     thor (1.2.1)
     unicode-display_width (2.4.2)
@@ -75,7 +83,7 @@ DEPENDENCIES
   pry (~> 0.14.1)
   rspec
   rspec-its
-  standard (~> 1.27.0)
+  standard (~> 1.28.0)
 
 BUNDLED WITH
    2.4.3
