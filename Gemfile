@@ -7,7 +7,7 @@ gemspec
 group :development, :test do
   gem "bundle-audit"
   gem "standard", "~> 1.43.0"
-  gem "pry", "~> 0.15.0"
+  gem "pry", "~> 0.15.2"
   gem "rspec"
   gem "rspec-its"
 end
