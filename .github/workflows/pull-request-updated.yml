@@ -33,4 +33,5 @@ jobs:
         env:
           PR_URL: ${{ github.event.pull_request.html_url }}
           REVIEWER: instrumentl/libero
-          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
+          GH_REPO: ${{ github.repository }}
