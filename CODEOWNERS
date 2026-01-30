@@ -1,0 +1,3 @@
+# Auto-tag the "Infrastructure" group otherwise anyone can approve changes
+
+** @instrumentl/infrastructure
