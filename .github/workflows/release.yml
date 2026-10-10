@@ -19,9 +19,9 @@ jobs:
         run: |
           umask 077
           mkdir -p "$HOME/.gem"
-          printf -- "---\n:rubygems_api_key: ${RUBYGEMS_API_KEY}\n" > $HOME/.gem/credentials
-          gem build *.gemspec
-          gem push *.gem
+          printf -- "---\n:rubygems_api_key: %s\n" "${RUBYGEMS_API_KEY}" > "$HOME/.gem/credentials"
+          gem build ./*.gemspec
+          gem push ./*.gem
           rm -f "$HOME/.gem/credentials"
         env:
           RUBYGEMS_API_KEY: "${{secrets.RUBYGEMS_PUSH_API_KEY}}"
